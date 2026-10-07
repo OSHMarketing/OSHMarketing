@@ -37,7 +37,7 @@
     <rect x="60" y="192" width="262" height="38" rx="19" fill="url(#red)"/>
     <circle cx="82" cy="211" r="5" fill="#fff" class="dot"/>
     <text x="96" y="216" class="pill">NOW: HENRY REDESIGN</text>
-    <text x="340" y="216" class="tag">Customer ordering portal · Laravel · Filament</text>
+    <text x="340" y="216" class="tag">Customer ordering portal · Laravel</text>
 
     <!-- A stylised portal screen, standing in for the Henry redesign. -->
     <g transform="translate(838 34)">
