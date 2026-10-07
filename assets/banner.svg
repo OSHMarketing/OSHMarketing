@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Liam Murphy, Marketing Technology Specialist at One Stop Hire">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16161a"/>
+      <stop offset="1" stop-color="#0b0b0d"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E5252A"/>
+      <stop offset="1" stop-color="#B11E23"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="round"><rect width="1200" height="300" rx="18"/></clipPath>
+    <style>
+      .name { font: 800 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 3px; fill: #fff; }
+      .role { font: 600 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #d6d6db; }
+      .pill { font: 700 15px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 1.5px; fill: #fff; }
+      .tag { font: 600 15px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #8f8f99; }
+      .card { fill: #1d1d22; stroke: #2e2e36; }
+      .bar { fill: #34343d; }
+      .glow { animation: glow 3s ease-in-out infinite; }
+      .scan { animation: scan 4.5s linear infinite; }
+      .dot { animation: blink 1.6s steps(2) infinite; }
+      @keyframes glow { 50% { opacity: 0.45; } }
+      @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(300px); } }
+      @keyframes blink { 50% { opacity: 0.2; } }
+    </style>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <rect width="10" height="300" fill="url(#red)"/>
+
+    <text x="60" y="118" class="name">LIAM MURPHY</text>
+    <text x="62" y="160" class="role">Marketing Technology Specialist · One Stop Hire</text>
+    <rect x="60" y="192" width="262" height="38" rx="19" fill="url(#red)"/>
+    <circle cx="82" cy="211" r="5" fill="#fff" class="dot"/>
+    <text x="96" y="216" class="pill">NOW: HENRY REDESIGN</text>
+    <text x="340" y="216" class="tag">Customer ordering portal · Laravel · Filament</text>
+
+    <!-- A stylised portal screen, standing in for the Henry redesign. -->
+    <g transform="translate(838 34)">
+      <rect width="300" height="232" rx="14" class="card"/>
+      <rect x="0" y="0" width="300" height="36" rx="14" fill="#B11E23"/>
+      <rect x="0" y="22" width="300" height="14" fill="#B11E23"/>
+      <circle cx="20" cy="18" r="5" fill="#fff" fill-opacity="0.9"/>
+      <rect x="34" y="14" width="70" height="8" rx="4" fill="#fff" fill-opacity="0.85"/>
+      <rect x="236" y="13" width="48" height="10" rx="5" fill="#fff" fill-opacity="0.35"/>
+      <rect x="18" y="54" width="128" height="70" rx="8" fill="#26262d"/>
+      <rect x="30" y="68" width="60" height="8" rx="4" class="bar"/>
+      <rect x="30" y="86" width="90" height="18" rx="4" fill="#E5252A" class="glow"/>
+      <rect x="156" y="54" width="126" height="70" rx="8" fill="#26262d"/>
+      <rect x="168" y="68" width="54" height="8" rx="4" class="bar"/>
+      <rect x="168" y="86" width="96" height="18" rx="4" fill="#3a3a44"/>
+      <rect x="18" y="136" width="264" height="18" rx="5" fill="#26262d"/>
+      <rect x="18" y="162" width="264" height="18" rx="5" fill="#26262d"/>
+      <rect x="18" y="188" width="180" height="18" rx="5" fill="#26262d"/>
+      <rect x="208" y="188" width="74" height="18" rx="9" fill="#E5252A"/>
+      <rect x="0" y="0" width="300" height="3" fill="#fff" fill-opacity="0.18" class="scan"/>
+    </g>
+    <g transform="translate(790 70)" opacity="0.5">
+      <rect width="34" height="160" rx="8" class="card"/>
+      <rect x="8" y="14" width="18" height="6" rx="3" class="bar"/>
+      <rect x="8" y="30" width="18" height="6" rx="3" class="bar"/>
+      <rect x="8" y="46" width="18" height="6" rx="3" class="bar"/>
+    </g>
+  </g>
+</svg>
